@@ -184,7 +184,7 @@ class OdemeEkleActivity : AppCompatActivity() {
                }else{
                    secilenPeriyot = Periyot.HAFTALIK
                }
-                Toast.makeText(this@OdemeEkleActivity,secilenPeriyot.toString(),Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this@OdemeEkleActivity,secilenPeriyot.toString(),Toast.LENGTH_SHORT).show()
         }
             override fun onNothingSelected(parent: AdapterView<*>) {
                 // write code to perform some action
