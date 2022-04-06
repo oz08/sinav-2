@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             //binding.rvOdemeler.adapter!!.notifyDataSetChanged()
             odemeListesi = OdemeTipiLogic.tumOdemeTipleriniGetir(this@MainActivity)
             binding.rvOdemeler.adapter = CardAdapter(applicationContext,odemeListesi, ::odemeDetayListener, ::btnOdemeTutariEkle)
-            Toast.makeText(this,odemeListesi.size.toString(),Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this,odemeListesi.size.toString(),Toast.LENGTH_SHORT).show()
         }
     }
 }

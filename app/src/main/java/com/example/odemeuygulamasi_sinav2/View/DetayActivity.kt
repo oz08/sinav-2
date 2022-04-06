@@ -76,7 +76,8 @@ class DetayActivity : AppCompatActivity() {
                 //Toast.makeText(this,odemeGecmisiArray[0].odemeTarihi, Toast.LENGTH_LONG).show()
                 // ARRAY GELİYOR TAMAM SIKINTI YOK. ŞİMDİ BUNU RV YE BAĞLAYACAĞIZ.
             }else{
-                Toast.makeText(this,"Veri Gelmedi", Toast.LENGTH_LONG).show()
+                //
+            //Toast.makeText(this,"Veri Gelmedi", Toast.LENGTH_LONG).show()
 
             }
 
@@ -117,7 +118,7 @@ class DetayActivity : AppCompatActivity() {
             // There are no request codes
             val data: Intent? = result.data
             var silindiMi = data!!.getBooleanExtra("silindi",false)
-            Toast.makeText(this,silindiMi.toString(),Toast.LENGTH_LONG).show()
+           // Toast.makeText(this,silindiMi.toString(),Toast.LENGTH_LONG).show()
             if(silindiMi){
                 val intent = Intent()
                 setResult(RESULT_OK,intent)

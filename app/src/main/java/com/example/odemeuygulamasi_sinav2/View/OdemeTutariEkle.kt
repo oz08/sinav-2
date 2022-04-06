@@ -83,7 +83,7 @@ class OdemeTutariEkle : AppCompatActivity() {
             val day = c.get(Calendar.DAY_OF_MONTH)
 
             val dpd = DatePickerDialog(this,DatePickerDialog.OnDateSetListener { datePicker, y, m, d ->
-                Toast.makeText(this, "$y-${m + 1}-$d",Toast.LENGTH_LONG).show()
+                //Toast.makeText(this, "$y-${m + 1}-$d",Toast.LENGTH_LONG).show()
                 date = "$d-${m + 1}-$y"
 
             },year,month,day)
