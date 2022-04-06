@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OdemeUygulamasi_Sinav2</string>
+    <string-array name="periyotlar">
+        <item>HAFTALIK</item>
+        <item>AYLIK</item>
+        <item>YILLIK</item>
+    </string-array>
+</resources>
